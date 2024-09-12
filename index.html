@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-=1.0">
+        <title>Sudip Chaudhary</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/d1c0df2209.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/1.png" class="logo" href="index.html">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Sudip</span> <br>Chaudhary From Rautahat</h1>
+            </div>
+        </div>
+    </div>
+
+<!------------------------about----------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_1566.JPEG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Versatile and innovative Web Developer with strong enthusiasm for research and technologies. Deeply passionate about Blockchain, Artificial Intelligence, and Cybernetics, with a focus on developing human-centered AI solutions. Driven by the challenge of merging web development with advancement in Artificial Intelligence (AI) and Blockchain to create impactful, future oriented systems. Currently working on an Application that help farmers of Nepal to detect the plant deseases with help of Dataset and Artificial Intelligence.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>WEB Develop</span><br>Web development</li>
+                            <li><span>Python</span><br>Creating AI</li>
+                            <li><span>Graphic Designer</span><br>Working for Gujara Volunteer & smssbhawanipur.edu.np</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Hackathon 2.0</li>
+                            <li><span>2022 -2023</span><br>Shree Model Secondary School Web development</li>
+                            <li><span>2024 - Current</span><br>Graphic Designer at Gujara Volunteers, Simara bhawanipur school, and RSJJYC Club</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Hackademia</li>
+                            <li><span>2021 - 2023</span><br>High School</li>
+                            <li><span>2007 - 2020</span><br>Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!------------------------services----------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I offer a full range of web development services, designed to bring your ideas to life with functional, responsive, and scalable websites. From simple business sites to complex web applications, I ensure that your online presence is fast, secure, and tailored to your needs.                </p>
+                <a href="https://github.com/sussidip" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-wordpress"></i>
+                <h2>Wordpress</h2>
+                <p>I offer a comprehensive range of WordPress services to help you build, maintain, and optimize your website. Whether you're starting from scratch or looking to improve an existing site, my services are designed to meet your unique need</p>
+                <a href="wordpress.html" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I offer expert UI/UX design services to help you create intuitive, visually appealing, and user-centered digital experiences. My services ensure that your product not only looks great but also delivers a seamless and engaging user journey.</p>
+                <a href="UI/UX.html" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------Portfolio----------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/IMG_2833.jpg">
+                <div class="layer">
+                    <h3>SMSS-Bhawanipur</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae distinctio, temporibus iure, veritatis maiores nam perferendis consectetur, corporis dolores nostrum vel! Unde, error animi. Sapiente eum aspernatur nulla eaque odit!</p>
+                    <a href="https://www.mssbhawanipur.edu.np/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/IMG_2836.jpg">
+                <div class="layer">
+                    <h3>Gujara Volunteers</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae distinctio, temporibus iure, veritatis maiores nam perferendis consectetur, corporis dolores nostrum vel! Unde, error animi. Sapiente eum aspernatur nulla eaque odit!</p>
+                    <a href="https://www.adhikari-ramesh.com.np/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/IMG_2835.jpg">
+                <div class="layer">
+                    <h3>RSJJY Club</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae distinctio, temporibus iure, veritatis maiores nam perferendis consectetur, corporis dolores nostrum vel! Unde, error animi. Sapiente eum aspernatur nulla eaque odit!</p>
+                    <a href="https://www.facebook.com/RSJJYC" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------Contact----------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>csudip705@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+977 9766330655</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sussidip/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sudip-chaudhary-7a80bb208/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/SudipCh43843921" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://discord.com/channels/1274707404377821255/1274707404377821257" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://github.com/sussidip" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>© Copyright 2024 Sudip Chaudhary, Simara Bhawanipur | Powered by: <a href="https://www.instagram.com/sussidip/" target="_blank"><i class="fa-brands fa-instagram"></i></a> Sudip Chaudhary</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzP0KLw_lI-34coMewLD89rDKvY--gWopLqpQE8ZZk-HasJ9AIq0tcsprCJqbDiZIqWqw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succefully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
